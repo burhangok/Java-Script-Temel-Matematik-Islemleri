@@ -1,0 +1,56 @@
+﻿<html>
+
+	<head>
+
+	   <script type="text/javascript">
+
+				  var birinciSayi 			= 		parseInt(prompt("Birinci Sayıyı Giriniz",""));
+				  var ikinciSayi  			= 		parseInt(prompt("İkinci Sayıyı Giriniz",""));;
+				  
+				  function topla ()  {	return birinciSayi	+ 	ikinciSayi; 	}
+				  
+				  function cikar ()  {	return birinciSayi	- 	ikinciSayi; 	}
+				  
+				  function carp  ()  {	return birinciSayi	*	ikinciSayi; 	}
+				  
+				  function bol   ()  {	return birinciSayi	/	ikinciSayi; 	}
+	  
+		</script>
+
+	</head>
+
+		<body>
+			
+			<center>
+			
+				<h1>BASİT MATEMATİK İŞLEMLERİ</h1>
+				<hr>
+			
+			
+	
+								<!-- Girilen Sayilar Kullaniciya Gosteriliyor. -->
+				<h2>GİRİLEN SAYILAR</h2>
+				<h3><script> document.write("Birinci Sayı : "); document.write(birinciSayi); </script> </h3>
+				<h3><script> document.write("İkinci Sayı : "); document.write(ikinciSayi);  </script>  </h3>
+								<!-- bitis - Girilen Sayilar Kullaniciya Gosteriliyor. -->
+													<hr>
+								<!-- Matematik islemlerinin sonucu pencerede (alert ile) gosteriliyor -->
+				<h2>İŞLEM SONUÇLARI İÇİN TIKLAYINIZ</h2>
+				<h3 onclick = "alert(topla());" >	Toplama Sonucu 	</h3>
+				<h3 onclick = "alert(cikar());" >	Çıkartma Sonucu	</h3>
+				<h3 onclick = "alert(carp ());" >	Çarpma Sonucu	</h3>
+				<h3 onclick = "alert(bol ()); " >	Bölme Sonucu	</h3>
+								<!-- bitis - Matematik islemlerinin sonucu pencerede gosteriliyor -->
+								
+								<!-- Matematik islemlerinin sonucu ekrana yazdiriliyor -->
+				<h2>İŞLEM SONUÇLARI</h2>
+				<h3><script> document.write("Toplama Sonucu : "); document.write(topla());  </script>   </h3>
+				<h3><script> document.write("Çıkarma Sonucu : "); document.write(cikar());  </script>   </h3>
+				<h3><script> document.write("Çarpma  Sonucu : "); document.write(carp());  	</script>   </h3>
+				<h3><script> document.write("Bölme   Sonucu : "); document.write(bol());  	</script>   </h3>
+							<!--  bitis - Matematik islemlerinin sonucu ekrana yazdiriliyor -->
+			</center>		
+		</body>
+
+		
+</html>

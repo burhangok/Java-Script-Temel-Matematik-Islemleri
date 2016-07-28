@@ -1,0 +1,9 @@
+JAVASCRIPT ÝLE TEMEL MATEMATÝK ÝÞLEMLERÝ
+
+Yeni html ve JavaScript öðrenenler için bu projede JavaScript fonksiyonu olan "prompt" ile kullanýcýdan alýnan iki sayý üzerinden 4 temel iþlem gerçekleþtiren uygulama geliþtirildi. Burada ki amaç; kullanýcýdan veri alma , veri türleri arasýnda dönüþüm, matematiksel operatörleri kullanma, fonksyion kullanýmý ,sýk kullanýlan "alert" fonksiyonun kullanýmý, JavaScript deðiþkeninin HTML etiketleri arasýnda kullanýmý ve sýk kullanýlan "onclick" metodunun kullanýmýnýn öðrenilmesidir.Basit ama temel iþlemlerin gösterildiði bu projede yeni baþlayanlar projeyi çeþitlendirerek de kendilerini geliþtirebilirler.
+
+
+Açýklama satýrlarýndan ve kodlamada kullanýlan standartlardan dolayý projeyi geliþtirebilir ya da GNU MIT Open Source Licence kapsamýnda kullanabilirsiniz. Proje hakkýnda ki görüþleriniz ve sorularýnýz için burhangok@yahoo.com adresine mail atabilirsiniz.
+
+Burhan GÖK
+burhangok@yahoo.com
